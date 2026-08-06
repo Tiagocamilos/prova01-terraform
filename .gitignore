@@ -1,0 +1,20 @@
+# Ignorar diretórios e arquivos locais do Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Ignorar o arquivo de variáveis para não expor seu IP ou credenciais no GitHub
+*.tfvars
+*.tfvars.json
+
+# Arquivos de override
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignorar arquivos do CLI do Terraform
+.terraformrc
+terraform.rc
