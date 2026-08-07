@@ -16,6 +16,7 @@ O state remoto está configurado para utilizar um bucket S3. O bucket foi criado
 Antes de executar o projeto, é necessário criar um arquivo `terraform.tfvars` na raiz do projeto (que é ignorado pelo Git por segurança) contendo o seu IP público no formato CIDR (/32) para liberar o acesso SSH:
 ```hcl
 meu_ip = "SEU_IP_AQUI/32"
+```
 Como executar o projeto
 Inicialize o Terraform:
 
